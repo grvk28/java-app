@@ -1,0 +1,414 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#"
+     xml:base="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Aggregator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Aggregator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Service_Provider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Appliances -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Appliances">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Customer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Application_Protocol_Attack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Application_Protocol_Attack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Network_Access"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Asset_Management -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Asset_Management">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Operation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Billing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Billing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Service_Provider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#CIS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#CIS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Service_Provider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Customer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Customer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Smart_Grid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Customer_Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Customer_Equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Customer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Customer_Substation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Customer_Substation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Customer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#DMS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#DMS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Operation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Data_Collector -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Data_Collector">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Transmission_and_Distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Data_Sniffing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Data_Sniffing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Physical_Access"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Demand_Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Demand_Response">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Operation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Distribution_SCADA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Distribution_SCADA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Operation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#EMS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#EMS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Operation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Electric_Storage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Electric_Storage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Energy_Market_Clearinghouse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Energy_Market_Clearinghouse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Market"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Energy_Service_Interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Energy_Service_Interface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Customer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Field_Service -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Field_Service">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Transmission_and_Distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Generation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Generation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Smart_Grid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Generator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Generator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Home_Manager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Home_Manager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Service_Provider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#MDMS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#MDMS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Operation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Management_Port_Access -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Management_Port_Access">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Physical_Access"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Management_Software_Attack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Management_Software_Attack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Network_Access"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Market -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Market">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Smart_Grid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Market_Service_Interface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Market_Service_Interface">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Memory_Dump -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Memory_Dump">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Physical_Access"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Meter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Meter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Customer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Metering_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Metering_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Operation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Network_Access -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Network_Access">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Metering_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Operation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Operation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Smart_Grid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Others -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Others">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Service_Provider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Physical_Access -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Physical_Access">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Metering_System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Plant_Control_System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Plant_Control_System">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Generation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Retail_Energy_Provider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Retail_Energy_Provider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Service_Provider"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Retailer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Retailer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Market"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Service_Provider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Service_Provider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Smart_Grid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Smart_Grid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Smart_Grid"/>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Smart_Meter_Attack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Smart_Meter_Attack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Network_Access"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Substation_Controller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Substation_Controller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Transmission_and_Distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Substation_Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Substation_Device">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Transmission_and_Distribution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Thermostat_Customer_EMS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Thermostat_Customer_EMS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Customer"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Transmission_SCADA -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Transmission_SCADA">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Operation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Transmission_and_Distribution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Transmission_and_Distribution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Smart_Grid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#WAMPAC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#WAMPAC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Operation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Zigbee_Attack -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Zigbee_Attack">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Network_Access"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#aggregator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#aggregator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gaurav/ontologies/2020/8/untitled-ontology-7#Market"/>
+    </owl:Class>
+    
+   
+SELECT  ?title
+WHERE   { ?x dc:title ?title
+          FILTER regex(?title, "^SPARQL") 
+        }
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
